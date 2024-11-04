@@ -32,6 +32,7 @@ h1 {
     width: 100%;
     padding: 15px;
     border: none;
+    border-radius: 7px;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -52,22 +53,22 @@ h1 {
 }
 
 .physics .subject-button:hover {
-    background-color: #186fc4; /* Синий для физики */
+    background-color: #186fc4; /* Более синий для физики */
 }
 
 .chemistry .subject-button:hover {
-    background-color: #259c25; /* Зелёный для химии */
+    background-color: #259c25; /* Более зелёный для химии */
 }
 
 .algebra .subject-button:hover {
-    background-color: #641fa3; /* Фиолетовый для алгебры */
+    background-color: #641fa3; /* Более фиолетовый для алгебры */
 }
 
 /* Стили для списков */
 .subject-list {
     overflow: hidden;
     max-height: 0;
-    transition: max-height 0.5s ease-out;
+    transition: max-height 0.4s ease-out;
 }
 
 .subject-list a {
