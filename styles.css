@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: url(Background.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Стили для разделов */
+.section {
+    margin: 20px 0;
+    text-align: left;
+}
+
+/* Стили для кнопок предметов */
+.subject-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.physics .subject-button {
+    background-color: #1e90ff; /* Синий для физики */
+}
+
+.chemistry .subject-button {
+    background-color: #32cd32; /* Зелёный для химии */
+}
+
+.algebra .subject-button {
+    background-color: #8a2be2; /* Фиолетовый для алгебры */
+}
+
+.subject-button:hover {
+    opacity: 0.9;
+}
+
+/* Стили для списков */
+.subject-list {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+}
+
+.subject-list a {
+    display: block;
+    padding: 10px 20px;
+    padding-left: 40px;
+    text-align: left;
+    color: #333;
+    text-decoration: none;
+    border-left: 4px solid;
+    margin-left: 20px;
+    transition: background-color 0.3s;
+}
+
+/* Цвета для ссылок на решения */
+.physics a {
+    color: #1e90ff;
+    border-color: #1e90ff;
+}
+
+.chemistry a {
+    color: #32cd32;
+    border-color: #32cd32;
+}
+
+.algebra a {
+    color: #8a2be2;
+    border-color: #8a2be2;
+}
+
+.subject-list a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Стили для списков */
+.subject-list {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+}
+
+.subject-list a {
+    display: block;
+    padding: 10px 20px;
+    padding-left: 40px;
+    text-align: left;
+    color: #333;
+    text-decoration: none;
+    border-left: 4px solid;
+    margin-left: 20px;
+    background-color: white; /* Добавляем белый фон */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Лёгкая тень для объёма */
+    border-radius: 5px; /* Закругляем углы */
+    transition: background-color 0.3s;
+}
+
+/* Цвета для ссылок на решения */
+.physics a {
+    color: #1e90ff;
+    border-color: #1e90ff;
+}
+
+.chemistry a {
+    color: #32cd32;
+    border-color: #32cd32;
+}
+
+.algebra a {
+    color: #8a2be2;
+    border-color: #8a2be2;
+}
+
+.subject-list a:hover {
+    background-color: #f0f0f0; /* Лёгкое затемнение при наведении */
+}
